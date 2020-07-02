@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": true,
+    "target": "es6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
